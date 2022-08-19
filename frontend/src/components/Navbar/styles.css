@@ -1,0 +1,27 @@
+.main-nav {
+    padding: 15px 20px;
+    width: 100%;
+    min-height: 70px;
+}
+
+.nav-logo-text, .nav-logo-text:hover {
+    color: #00285F;
+    font-size: 24px;
+}
+
+.main-menu {
+    display: flex;
+    font-size: 18px;
+    width: 180px;
+    justify-content: space-between;
+}
+
+.main-menu a.active {
+    font-weight: 700;
+}
+
+@media (min-width: 1200px) {
+    .container-nav {
+        width: 1200px;    
+    }
+}

@@ -1,8 +1,12 @@
 import './assets/styles/custom.scss';
 import './App.css';
 
+import RoutesDom from 'RoutesDom';
+
 function App() {
-  return <h1>Main Page</h1>;
+  return (
+    <RoutesDom />
+  );
 }
 
 export default App;
