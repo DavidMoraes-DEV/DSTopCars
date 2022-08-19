@@ -1,0 +1,31 @@
+.button-container {
+    width: 174px;
+    height: 40px;
+}
+
+.button-container h6 {
+    font-size: 13px;
+}
+
+@media (max-width: 319px) {
+    .button-container h6 {
+        font-size: 11px;
+    }
+}
+
+@media (min-width: 576px) {
+    .button-container h6 {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .button-container {
+        width: 230px;
+        height: 55px;
+    }
+
+    .button-container h6 {
+        font-size: 1.1em;
+    }
+}
