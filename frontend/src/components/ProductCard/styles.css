@@ -1,0 +1,38 @@
+.product-card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 15px;
+    text-align: center;
+}
+
+.image-product-container {
+    width: 220px;
+}
+
+.card-content-container h2 {
+    margin-bottom: 14px;
+    font-size: 1.4em;
+}
+
+.card-content-container p {
+    margin-bottom: 35px;
+    font-style: italic;
+    font-size: 0.87em;
+    text-align: left;
+    color: #585858;
+}
+
+.card-content-container button {
+    width: 100%;
+}
+
+@media (max-width: 319px) {
+    .image-product-container {
+        width: 100%;
+    }
+    .image-product-container img {
+        width: 150px;
+    }
+}
